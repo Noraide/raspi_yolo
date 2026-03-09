@@ -30,7 +30,7 @@ pip install ultralytics ncnn
 ```
 
 ## Step 4: Prepare the Model
-Download the lightweight "Nano" version of YOLO11:
+Download the lightweight "Nano" version of YOLO26:
 ```bash
 yolo detect predict model=yolo26n.pt
 ```
