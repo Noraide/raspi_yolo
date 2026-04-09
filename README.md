@@ -40,7 +40,7 @@ yolo export model=yolo26n.pt format=ncnn
 ```
 Connect webcam and check the camera, confirm the result show video 0 or 1:
 ```bash
-ls dev/video*
+ls /dev/video*
 ```
 Get the template python file:
 ```bash
