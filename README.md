@@ -44,7 +44,7 @@ ls /dev/video*
 ```
 Get the template python file:
 ```bash
-wget https://edje.nyc/repo/yolo_detect.py
+wget https://www.ejtech.io/code/yolo_detect.py
 ```
 ## Step 5: Running Inference
 Run on Live Camera Feed
