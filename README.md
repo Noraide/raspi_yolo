@@ -51,7 +51,7 @@ Run on Live Camera Feed
 Ensure your USB webcam or Pi Camera is connected.
 ```bash
 # Replace 'USB 0' with your camera index if necessary
-python yolo_detect.py --model yolo26n_ncnn_model --source 0 --resolution 1280x720
+python yolo_detect.py --model yolo26n_ncnn_model --source=usb0 --resolution=1280x720
 ```
 #Reference
 1. [How to Run YOLO Object Detection Models on the Raspberry Pi](https://www.youtube.com/watch?v=z70ZrSZNi-8)
