@@ -28,12 +28,14 @@ source venv/bin/activate
 
 ## Step 3: Install the Ultralytics (YOLO) and NCNN
 ```bash
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
 pip install ultralytics ncnn
 ```
 
 ## Step 4: Prepare the Model
 Download the lightweight "Nano" version of YOLO26:
 ```bash
+
 yolo detect predict model=yolo26n.pt
 ```
 convert the PyTorch model to NCNN format:
