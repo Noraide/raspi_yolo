@@ -12,4 +12,10 @@ How to setup Raspberry OS
 sudo date -s "$(wget -qSO- --max-redirect=0 google.com 2>&1 | grep Date: | cut -d' ' -f5-8)Z"
 ```
  ## Step 2: Install VS Code
+Open VS Code
 Install Python ext
+
+[Create tem.py file](https://github.com/Noraide/raspi_yolo/blob/main/tem.py)
+
+
+
