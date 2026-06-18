@@ -17,5 +17,8 @@ Install Python ext
 
 [Create tem.py file](https://github.com/Noraide/raspi_yolo/blob/main/tem.py)
 
+ ## Step 3: Install ultralytic to run Yolo Model 
+ [Yolo on Raspberry PI](https://github.com/Noraide/raspi_yolo/edit/main/YOLO.md)
+
 
 
