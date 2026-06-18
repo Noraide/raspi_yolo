@@ -1,6 +1,8 @@
 # Yolo on Raspberry PI
 How to run yolo detection model on raspberry Pi
 
+[Deploying Ultralytics YOLO26 on Raspberry Pi](https://docs.ultralytics.com/guides/raspberry-pi#what-is-raspberry-pi)
+
 ## Step 1: Update Your System
 
 Update and upgrade your system packages:
