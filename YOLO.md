@@ -54,9 +54,9 @@ wget https://www.ejtech.io/code/yolo_detect.py
 Run on Live Camera Feed
 Ensure your USB webcam or Pi Camera is connected.
 ```bash
-# Replace 'USB 0' with your camera index if necessary
 python yolo_detect.py --model=yolo26n_ncnn_model --source=usb0 --resolution=1280x720
 ```
+# Replace 'USB 0' with your camera index if necessary
 #Reference
 1. [How to Run YOLO Object Detection Models on the Raspberry Pi](https://www.youtube.com/watch?v=z70ZrSZNi-8)
 2. [YOLO Object Detection on the Raspberry Pi AI HAT | Writing Python Scripts](https://www.youtube.com/watch?v=Zht2G1htFHA)
