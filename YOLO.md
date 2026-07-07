@@ -50,6 +50,7 @@ Get the template python file:
 ```bash
 wget https://www.ejtech.io/code/yolo_detect.py
 ```
+[yolo_detect.py](https://github.com/Noraide/raspi_yolo/blob/main/yolo_detect.py)
 ## Step 5: Running Inference
 Run on Live Camera Feed
 Ensure your USB webcam or Pi Camera is connected.
