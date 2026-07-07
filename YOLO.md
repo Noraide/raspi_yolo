@@ -50,7 +50,7 @@ Get the template python file:
 ```bash
 wget https://www.ejtech.io/code/yolo_detect.py
 ```
-[yolo_detect.py]([https://docs.ultralytics.com/guides/raspberry-pi#what-is-raspberry-pi](https://github.com/Noraide/raspi_yolo/blob/main/yolo_detect.py))
+[yolo_detect.py](https://docs.ultralytics.com/guides/raspberry-pi#what-is-raspberry-pi](https://github.com/Noraide/raspi_yolo/blob/main/yolo_detect.py)
 
 ## Step 5: Running Inference
 Run on Live Camera Feed
