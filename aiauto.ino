@@ -214,6 +214,10 @@ void loop()
         {
             detected=true;
         }
+        if(strcmp(bb.label, "MOUSE") == 0 && bb.value>threshold)
+        {
+            detected=true;
+        }
     }
 if (detected==true)
 {
