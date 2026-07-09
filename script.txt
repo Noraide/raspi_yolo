@@ -9,3 +9,4 @@ function doGet(e) {
   sheet.appendRow([timestamp, temp]);
   
   return ContentService.createTextOutput("Data logged successfully");
+}
