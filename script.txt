@@ -1,0 +1,11 @@
+function doGet(e) {
+  var sheet = SpreadsheetApp.getActiveSheet();
+  var timestamp = new Date();
+  
+  // Get parameters from URL
+  var temp = e.parameter.name;
+  
+  // Append data to sheet
+  sheet.appendRow([timestamp, temp]);
+  
+  return ContentService.createTextOutput("Data logged successfully");
