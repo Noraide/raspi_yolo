@@ -1,6 +1,6 @@
 /* Edge Impulse Arduino examples - Modified for Google Sheets Attendance */
 
-#include <FR_inferencing.h>
+#include <TUKAR>
 #include "edge-impulse-sdk/dsp/image/image.hpp"
 #include "esp_camera.h"
 #include <WiFi.h>
